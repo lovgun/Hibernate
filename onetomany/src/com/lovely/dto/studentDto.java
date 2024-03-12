@@ -10,7 +10,7 @@ import lombok.ToString;
 
 @Entity
 @Data
-@ToString
+
 public class studentDto {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
